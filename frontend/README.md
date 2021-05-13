@@ -1,3 +1,12 @@
+
+### My Instructions
+
+### `npm install`
+
+### `npm start`
+
+### React Instructions
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
