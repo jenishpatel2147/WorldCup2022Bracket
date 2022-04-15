@@ -4,6 +4,7 @@
 - Clone Repo
 - Go to front-end
 - run **yarn**
+- run **yarn start**
 
 # React's Guide - Getting Started with Create React App
 
