@@ -5,6 +5,7 @@
 - Go to front-end
 - run **yarn**
 - run **yarn start**
+- navigate to localhost:3000 or localhost:5000
 
 # React's Guide - Getting Started with Create React App
 
