@@ -1,6 +1,6 @@
 # EuroBracket_2021
-Creating a Bracket for Euro 2021
+Creating a Bracket for World Cup 2022
 
-/backend - Contains the Flask REST API
+/backend - Contains the Flask REST API, maybe Django ???
 
 /frontend - REACT App
