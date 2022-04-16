@@ -184,10 +184,12 @@ const EliminationForm: FC = () => {
                       <tbody className="tournament-bracket__content">
                         <tr className="tournament-bracket__team tournament-bracket__team--winner">
                           <td className="tournament-bracket__country">
-                            <h5>
-                              <span className={"flag:" + match.teamOne.flag} />{" "}
-                              {match.teamOne.name}
-                            </h5>
+                            <span
+                              className={
+                                "fi customFlagSizing fi-" + match.teamOne.flag.toLowerCase()
+                              }
+                            />
+                            <h5>{match.teamOne.name}</h5>
                             {/* <abbr className="tournament-bracket__code" title={match.teamOne.name}>{match.teamOne.name}</abbr>
                       <span className="tournament-bracket__flag flag-icon flag-icon-ca" aria-label="Flag"></span> */}
                           </td>
@@ -207,10 +209,12 @@ const EliminationForm: FC = () => {
                         </tr>
                         <tr className="tournament-bracket__team">
                           <td className="tournament-bracket__country">
-                            <h5>
-                              <span className={"flag:" + match.teamTwo.flag} />{" "}
-                              {match.teamTwo.name}
-                            </h5>
+                            <span
+                              className={
+                                "fi customFlagSizing fi-" + match.teamTwo.flag.toLowerCase()
+                              }
+                            />
+                            <h5>{match.teamTwo.name}</h5>
                             {/* <abbr className="tournament-bracket__code" title={match.teamTwo.name}>{match.teamTwo.name}</abbr>
                       <span className="tournament-bracket__flag flag-icon flag-icon-kz" aria-label="Flag"></span> */}
                           </td>
@@ -258,10 +262,12 @@ const EliminationForm: FC = () => {
                       <tbody className="tournament-bracket__content">
                         <tr className="tournament-bracket__team tournament-bracket__team--winner">
                           <td className="tournament-bracket__country">
-                            <h5>
-                              <span className={"flag:" + match.teamOne.flag} />{" "}
-                              {match.teamOne.name}
-                            </h5>
+                            <span
+                              className={
+                                "fi customFlagSizing fi-" + match.teamOne.flag.toLowerCase()
+                              }
+                            />
+                            <h5>{match.teamOne.name}</h5>
                             {/* <abbr className="tournament-bracket__code" title={match.teamOne.name}>{match.teamOne.name}</abbr>
                       <span className="tournament-bracket__flag flag-icon flag-icon-ca" aria-label="Flag"></span> */}
                           </td>
@@ -281,10 +287,12 @@ const EliminationForm: FC = () => {
                         </tr>
                         <tr className="tournament-bracket__team">
                           <td className="tournament-bracket__country">
-                            <h5>
-                              <span className={"flag:" + match.teamTwo.flag} />{" "}
-                              {match.teamTwo.name}
-                            </h5>
+                            <span
+                              className={
+                                "fi customFlagSizing fi-" + match.teamTwo.flag.toLowerCase()
+                              }
+                            />
+                            <h5>{match.teamTwo.name}</h5>
                             {/* <abbr className="tournament-bracket__code" title={match.teamTwo.name}>{match.teamTwo.name}</abbr>
                       <span className="tournament-bracket__flag flag-icon flag-icon-kz" aria-label="Flag"></span> */}
                           </td>
@@ -333,10 +341,12 @@ const EliminationForm: FC = () => {
                       <tbody className="tournament-bracket__content">
                         <tr className="tournament-bracket__team tournament-bracket__team--winner">
                           <td className="tournament-bracket__country">
-                            <h5>
-                              <span className={"flag:" + match.teamOne.flag} />{" "}
-                              {match.teamOne.name}
-                            </h5>
+                            <span
+                              className={
+                                "fi customFlagSizing fi-" + match.teamOne.flag.toLowerCase()
+                              }
+                            />
+                            <h5>{match.teamOne.name}</h5>
                             {/* <abbr className="tournament-bracket__code" title={match.teamOne.name}>{match.teamOne.name}</abbr>
                       <span className="tournament-bracket__flag flag-icon flag-icon-ca" aria-label="Flag"></span> */}
                           </td>
@@ -357,10 +367,12 @@ const EliminationForm: FC = () => {
                         </tr>
                         <tr className="tournament-bracket__team">
                           <td className="tournament-bracket__country">
-                            <h5>
-                              <span className={"flag:" + match.teamTwo.flag} />{" "}
-                              {match.teamTwo.name}
-                            </h5>
+                            <span
+                              className={
+                                "fi customFlagSizing fi-" + match.teamTwo.flag.toLowerCase()
+                              }
+                            />
+                            <h5>{match.teamTwo.name}</h5>
                             {/* <abbr className="tournament-bracket__code" title={match.teamTwo.name}>{match.teamTwo.name}</abbr>
                       <span className="tournament-bracket__flag flag-icon flag-icon-kz" aria-label="Flag"></span> */}
                           </td>
@@ -387,8 +399,8 @@ const EliminationForm: FC = () => {
             })}
           </ul>
         </div>
-        <div className="tournament-bracket__round tournament-bracket__round--gold">
-          <h3 className="tournament-bracket__round-title">Final</h3>
+        <div className="tournament-bracket__round tournament-bracket__round--quarterfinals">
+        <h3 className="tournament-bracket__round-title">Final</h3>
           <ul className="tournament-bracket__list">
             {finals.map((match) => {
               return (
@@ -410,7 +422,11 @@ const EliminationForm: FC = () => {
                         <tr className="tournament-bracket__team tournament-bracket__team--winner">
                           <td className="tournament-bracket__country">
                             <h5>
-                              <span className={"flag:" + match.teamOne.flag} />{" "}
+                              <span
+                                className={
+                                  "fi customFlagSizing fi-" + match.teamOne.flag.toLowerCase()
+                                }
+                              ></span>{" "}
                               {match.teamOne.name}
                             </h5>
                             {/* <abbr className="tournament-bracket__code" title={match.teamOne.name}>{match.teamOne.name}</abbr>
@@ -432,10 +448,12 @@ const EliminationForm: FC = () => {
                         </tr>
                         <tr className="tournament-bracket__team">
                           <td className="tournament-bracket__country">
-                            <h5>
-                              <span className={"flag:" + match.teamTwo.flag} />{" "}
-                              {match.teamTwo.name}
-                            </h5>
+                            <span
+                              className={
+                                "fi customFlagSizing fi-" + match.teamTwo.flag.toLowerCase()
+                              }
+                            />
+                            <h5>{match.teamTwo.name}</h5>
                             {/* <abbr className="tournament-bracket__code" title={match.teamTwo.name}>{match.teamTwo.name}</abbr>
                       <span className="tournament-bracket__flag flag-icon flag-icon-kz" aria-label="Flag"></span> */}
                           </td>

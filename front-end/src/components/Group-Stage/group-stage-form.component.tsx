@@ -4,8 +4,8 @@ import { useAppDispatch, useAppSelector } from "../../hooks";
 import styles, { getDraggableStyle, getDroppableStyle } from "./styles";
 import generateEliminationData from "../../utils/generateEliminationData";
 import EliminationForm from "../Eliminations/elimination-form.component";
-import "country-flag-icons/3x2/flags.css";
 import { genereateRoundOf16 } from "../../store/playoffStageReducer";
+import "flag-icons/css/flag-icons.css"
 
 import {
   updateGroupResults,
@@ -72,7 +72,7 @@ const GroupStageForm: FC = () => {
                             provided.draggableProps.style
                           )}
                         >
-                          <h5><span className={"flag:" + team.flag} /> {team.name}</h5>
+                          <h5><span className={"fi customFlagSizing fi-" + team.flag.toLowerCase()}></span> {team.name}</h5>
                         </div>
                       )}
                     </Draggable>
