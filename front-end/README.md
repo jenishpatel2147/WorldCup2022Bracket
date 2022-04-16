@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+# My Guide
+
+1. Clone the Project
+2. Navigate to front-end
+3. Run **yarn**
+4. Run **yarn start**
+5. Navigate to **localhost:3000** or **localhost:5000**
+
+If you run into any errors - let me know :smile:
+
+# React's Guide - Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
