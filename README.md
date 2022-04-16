@@ -1,6 +1,9 @@
 # World Cup Bracket 2022
-Creating a Bracket for World Cup 2022
 
-/backend - Contains the Flask REST API, maybe Django ???
+Hi, Welcome to the 2022 World Cup Bracket Generator
 
-/frontend - REACT App
+This repositoary contains a **back-end** and **front-end**
+
+## Backend - Flask or Django REST API (undecided still)
+
+## Frontend - React App
